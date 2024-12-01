@@ -1,23 +1,31 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Node.js
+node_modules/
+package-lock.json
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Build output
+dist/
+build/
 
-# testing
-/coverage
+# Logs
+*.log
 
-# production
-/build
+# Temporary files
+*.tmp
 
-# misc
+# Environment variables
+.env
+*.local
+
+# IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+Thumbs.db
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Backup files
+*.bak
+*.swp
